@@ -2,8 +2,6 @@
 
 In the third and last part of this series of articles on the Android Things platform, we look at creating a companion app for the Raspberry Pi Android module we created in [part 2](http://zenandroid.io/android-things-2-controlling-a-led/). This companion app will run on a normal Android phone or tablet and will connect to the Firebase Database to display real-time information on the status of the LEDs from the fleet of devices and allow us to toggle the status of any of those LEDs in almost real time.
 
-\[TOC\]
-
 # The app
 
 Technically, this app can use any of the platforms supported by Firebase (for example it could be a Web App), however, we're going to be building an Android app that will allow you to control the led using an android phone. It will consist of a single screen containing a list of the known devices, each showing the status of their LED. Clicking on a device will cause the led of the device to change state.
